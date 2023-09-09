@@ -1,24 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <meta charset=“UTF-8”>
-  <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-  <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <header>
-    <h1>Hello World</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="https://lynyr.github.io">Home</a></li>
-    </ul>
-  </nav>
-  <section>
-    <p>Teste</p>
-  </section>
-  <footer>
-    <p>Github Page</p>
-  </footer>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Minha Página</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <section>
+            <h1>Seção 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla, justo sit amet euismod euismod.</p>
+        </section>
+        <section>
+            <h1>Seção 2</h1>
+            <p>Proin nec dolor eu purus consequat vestibulum. Sed at tortor quis est rhoncus elementum.</p>
+        </section>
+        <section>
+            <h1>Seção 3</h1>
+            <p>Vestibulum consectetur lacinia est, vel facilisis metus. Integer volutpat ultrices metus, ut vehicula tortor volutpat id.</p>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+        Minha Página Web
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
